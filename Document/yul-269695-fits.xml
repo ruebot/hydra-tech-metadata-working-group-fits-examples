@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fits xmlns="http://hul.harvard.edu/ois/xml/ns/fits/fits_output" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hul.harvard.edu/ois/xml/ns/fits/fits_output http://hul.harvard.edu/ois/xml/xsd/fits/fits_output.xsd" version="0.8.4" timestamp="4/15/15 2:48 PM">
+  <identification>
+    <identity format="Portable Document Format" mimetype="application/pdf" toolname="FITS" toolversion="0.8.4">
+      <tool toolname="Jhove" toolversion="1.5" />
+      <tool toolname="file utility" toolversion="5.14" />
+      <tool toolname="Exiftool" toolversion="9.13" />
+      <tool toolname="Droid" toolversion="6.1.3" />
+      <tool toolname="NLNZ Metadata Extractor" toolversion="3.4GA" />
+      <tool toolname="ffident" toolversion="0.2" />
+      <tool toolname="Tika" toolversion="1.3" />
+      <version toolname="Jhove" toolversion="1.5">1.6</version>
+      <externalIdentifier toolname="Droid" toolversion="6.1.3" type="puid">fmt/20</externalIdentifier>
+    </identity>
+  </identification>
+  <fileinfo>
+    <size toolname="Jhove" toolversion="1.5">709162</size>
+    <creatingApplicationName toolname="Exiftool" toolversion="9.13" status="CONFLICT">Adobe Acrobat 10.1.2 Image Conversion Plug-in/Adobe Acrobat 10.1.2</creatingApplicationName>
+    <creatingApplicationName toolname="NLNZ Metadata Extractor" toolversion="3.4GA" status="CONFLICT">/</creatingApplicationName>
+    <lastmodified toolname="Exiftool" toolversion="9.13" status="CONFLICT">2015:04:15 14:48:03-04:00</lastmodified>
+    <lastmodified toolname="Tika" toolversion="1.3" status="CONFLICT">2013-05-02T17:56:46Z</lastmodified>
+    <created toolname="Exiftool" toolversion="9.13" status="SINGLE_RESULT">2013:05:02 13:56:46-04:00</created>
+    <filepath toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">/big_data/tmp/yul-269695.OBJ.pdf</filepath>
+    <filename toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">yul-269695.OBJ.pdf</filename>
+    <md5checksum toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">9bc08bc0442d3e84b68b1cc11d581176</md5checksum>
+    <fslastmodified toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">1429123683000</fslastmodified>
+  </fileinfo>
+  <filestatus>
+    <well-formed toolname="Jhove" toolversion="1.5" status="SINGLE_RESULT">true</well-formed>
+    <valid toolname="Jhove" toolversion="1.5" status="SINGLE_RESULT">true</valid>
+    <message toolname="Jhove" toolversion="1.5" status="SINGLE_RESULT">Outlines contain recursive references.</message>
+  </filestatus>
+  <metadata>
+    <document>
+      <title toolname="Jhove" toolversion="1.5" status="SINGLE_RESULT">1</title>
+      <pageCount toolname="Jhove" toolversion="1.5">4</pageCount>
+      <isTagged toolname="Jhove" toolversion="1.5">no</isTagged>
+      <hasOutline toolname="Jhove" toolversion="1.5" status="CONFLICT">yes</hasOutline>
+      <hasOutline toolname="NLNZ Metadata Extractor" toolversion="3.4GA" status="CONFLICT">no</hasOutline>
+      <hasAnnotations toolname="Jhove" toolversion="1.5" status="SINGLE_RESULT">no</hasAnnotations>
+      <isRightsManaged toolname="Exiftool" toolversion="9.13" status="SINGLE_RESULT">no</isRightsManaged>
+      <isProtected toolname="Exiftool" toolversion="9.13">no</isProtected>
+      <hasForms toolname="NLNZ Metadata Extractor" toolversion="3.4GA" status="SINGLE_RESULT">no</hasForms>
+      <standard>
+        <docmd:document xmlns:docmd="http://www.fcla.edu/docmd">
+          <docmd:PageCount>4</docmd:PageCount>
+          <docmd:Features>hasOutline</docmd:Features>
+        </docmd:document>
+      </standard>
+    </document>
+  </metadata>
+  <statistics fitsExecutionTime="2400">
+    <tool toolname="OIS Audio Information" toolversion="0.1" status="did not run" />
+    <tool toolname="ADL Tool" toolversion="0.1" status="did not run" />
+    <tool toolname="Jhove" toolversion="1.5" executionTime="2277" />
+    <tool toolname="file utility" toolversion="5.14" executionTime="2083" />
+    <tool toolname="Exiftool" toolversion="9.13" executionTime="1522" />
+    <tool toolname="Droid" toolversion="6.1.3" executionTime="472" />
+    <tool toolname="NLNZ Metadata Extractor" toolversion="3.4GA" executionTime="1350" />
+    <tool toolname="OIS File Information" toolversion="0.2" executionTime="404" />
+    <tool toolname="OIS XML Metadata" toolversion="0.2" status="did not run" />
+    <tool toolname="ffident" toolversion="0.2" executionTime="952" />
+    <tool toolname="Tika" toolversion="1.3" executionTime="1592" />
+  </statistics>
+</fits>
+

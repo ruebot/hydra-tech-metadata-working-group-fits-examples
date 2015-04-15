@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fits xmlns="http://hul.harvard.edu/ois/xml/ns/fits/fits_output" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hul.harvard.edu/ois/xml/ns/fits/fits_output http://hul.harvard.edu/ois/xml/xsd/fits/fits_output.xsd" version="0.8" timestamp="8/11/14 12:57 PM">
+  <identification status="CONFLICT">
+    <identity format="Hypertext Markup Language" mimetype="text/html" toolname="FITS" toolversion="0.8">
+      <tool toolname="Jhove" toolversion="1.5" />
+    </identity>
+    <identity format="WARC Archive version 1.0\015" mimetype="application/warc" toolname="FITS" toolversion="0.8">
+      <tool toolname="file utility" toolversion="5.09" />
+    </identity>
+  </identification>
+  <fileinfo>
+    <size toolname="Jhove" toolversion="1.5">10383574</size>
+    <filepath toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">/extra/tmp/yul-232040.OBJ.warc</filepath>
+    <filename toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">yul-232040.OBJ.warc</filename>
+    <md5checksum toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">3689fa7ca356bd109e21bcdc854f9047</md5checksum>
+    <fslastmodified toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">1407776218000</fslastmodified>
+  </fileinfo>
+  <filestatus>
+    <well-formed toolname="Jhove" toolversion="1.5" status="SINGLE_RESULT">false</well-formed>
+    <valid toolname="Jhove" toolversion="1.5" status="SINGLE_RESULT">false</valid>
+    <message toolname="Jhove" toolversion="1.5" status="SINGLE_RESULT">TokenMgrError: Lexical error at line 346, column 50.  Encountered: "." (46), after : ""</message>
+  </filestatus>
+  <metadata>
+    <text>
+      <markupBasis toolname="Jhove" toolversion="1.5" status="SINGLE_RESULT">HTML</markupBasis>
+      <standard>
+        <textMD:textMD xmlns:textMD="info:lc/xmlns/textMD-v3">
+          <textMD:markup_basis>HTML</textMD:markup_basis>
+        </textMD:textMD>
+      </standard>
+    </text>
+  </metadata>
+  <statistics fitsExecutionTime="1968">
+    <tool toolname="OIS Audio Information" toolversion="0.1" status="did not run" />
+    <tool toolname="ADL Tool" toolversion="0.1" status="did not run" />
+    <tool toolname="Jhove" toolversion="1.5" executionTime="1839" />
+    <tool toolname="file utility" toolversion="5.09" executionTime="1926" />
+    <tool toolname="Exiftool" toolversion="9.13" executionTime="1732" />
+    <tool toolname="Droid" toolversion="6.1.3" executionTime="723" />
+    <tool toolname="NLNZ Metadata Extractor" toolversion="3.4GA" executionTime="1243" />
+    <tool toolname="OIS File Information" toolversion="0.2" executionTime="737" />
+    <tool toolname="OIS XML Metadata" toolversion="0.2" status="did not run" />
+    <tool toolname="ffident" toolversion="0.2" executionTime="1239" />
+    <tool toolname="Tika" toolversion="1.3" executionTime="1890" />
+  </statistics>
+</fits>
+

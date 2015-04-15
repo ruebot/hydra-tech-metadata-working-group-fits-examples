@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fits xmlns="http://hul.harvard.edu/ois/xml/ns/fits/fits_output" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hul.harvard.edu/ois/xml/ns/fits/fits_output http://hul.harvard.edu/ois/xml/xsd/fits/fits_output.xsd" version="0.8" timestamp="6/2/14 10:11 AM">
+  <identification>
+    <identity format="Waveform Audio" mimetype="audio/x-wave" toolname="FITS" toolversion="0.8">
+      <tool toolname="OIS Audio Information" toolversion="0.1" />
+      <tool toolname="Jhove" toolversion="1.5" />
+      <tool toolname="file utility" toolversion="5.09" />
+      <tool toolname="Exiftool" toolversion="9.13" />
+      <tool toolname="Droid" toolversion="6.1.3" />
+      <tool toolname="NLNZ Metadata Extractor" toolversion="3.4GA" />
+      <externalIdentifier toolname="Droid" toolversion="6.1.3" type="puid">fmt/141</externalIdentifier>
+    </identity>
+  </identification>
+  <fileinfo>
+    <size toolname="Jhove" toolversion="1.5">677446306</size>
+    <lastmodified toolname="Exiftool" toolversion="9.13" status="SINGLE_RESULT">2014:06:02 10:10:56-04:00</lastmodified>
+    <filepath toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">/extra/tmp/yul-194498.OBJ.wav</filepath>
+    <filename toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">yul-194498.OBJ.wav</filename>
+    <md5checksum toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">7f25e1ea6d4463df0957b345e3c0b71d</md5checksum>
+    <fslastmodified toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">1401718256000</fslastmodified>
+  </fileinfo>
+  <filestatus>
+    <well-formed toolname="Jhove" toolversion="1.5" status="SINGLE_RESULT">true</well-formed>
+    <valid toolname="Jhove" toolversion="1.5" status="SINGLE_RESULT">true</valid>
+  </filestatus>
+  <metadata>
+    <audio>
+      <numSamples toolname="OIS Audio Information" toolversion="0.1" status="SINGLE_RESULT">169361495</numSamples>
+      <sampleRate toolname="OIS Audio Information" toolversion="0.1">96000</sampleRate>
+      <audioDataEncoding toolname="OIS Audio Information" toolversion="0.1" status="CONFLICT">PCM</audioDataEncoding>
+      <audioDataEncoding toolname="Jhove" toolversion="1.5" status="CONFLICT">PCM audio in integer format</audioDataEncoding>
+      <audioDataEncoding toolname="Exiftool" toolversion="9.13" status="CONFLICT">Microsoft PCM</audioDataEncoding>
+      <blockAlign toolname="OIS Audio Information" toolversion="0.1" status="SINGLE_RESULT">4</blockAlign>
+      <channels toolname="OIS Audio Information" toolversion="0.1">2</channels>
+      <bitDepth toolname="OIS Audio Information" toolversion="0.1">16</bitDepth>
+      <wordSize toolname="OIS Audio Information" toolversion="0.1" status="SINGLE_RESULT">2</wordSize>
+      <offset toolname="OIS Audio Information" toolversion="0.1">326</offset>
+      <byteOrder toolname="Jhove" toolversion="1.5" status="SINGLE_RESULT">LITTLE_ENDIAN</byteOrder>
+      <duration toolname="Exiftool" toolversion="9.13" status="CONFLICT">0:29:24</duration>
+      <duration toolname="NLNZ Metadata Extractor" toolversion="3.4GA" status="CONFLICT">0:29:24:183</duration>
+      <standard>
+        <aes:audioObject xmlns:aes="http://www.aes.org/audioObject" ID="AUDIO_OBJECT_944521f9-64a4-43cd-bd2e-319eed2632c5" analogDigitalFlag="FILE_DIGITAL" schemaVersion="1.0.0" disposition="">
+          <aes:format>Waveform Audio</aes:format>
+          <aes:audioDataEncoding>PCM</aes:audioDataEncoding>
+          <aes:byteOrder>LITTLE_ENDIAN</aes:byteOrder>
+          <aes:firstSampleOffset>326</aes:firstSampleOffset>
+          <aes:audioDataBlockSize>4</aes:audioDataBlockSize>
+          <aes:use useType="OTHER" otherType="unknown" />
+          <aes:primaryIdentifier identifierType="FILE_NAME">yul-194498.OBJ.wav</aes:primaryIdentifier>
+          <aes:face audioObjectRef="AUDIO_OBJECT_944521f9-64a4-43cd-bd2e-319eed2632c5" direction="NONE" ID="FACE_d2facc1d-b360-45a0-86d6-5dbfefb4b5b3" label="face 1">
+            <aes:timeline>
+              <aes:startTime editRate="1">0</aes:startTime>
+              <aes:duration editRate="96000">169361495</aes:duration>
+            </aes:timeline>
+            <aes:region formatRef="FORMAT_REGION_3b5bcc64-730c-42f4-ab19-33dcd7e47fc1" ID="REGION_056554fe-a35b-4e70-b1bb-aacc586123f2" label="region 1" faceRef="FACE_d2facc1d-b360-45a0-86d6-5dbfefb4b5b3">
+              <aes:timeRange>
+                <aes:startTime editRate="1">0</aes:startTime>
+                <aes:duration editRate="96000">169361495</aes:duration>
+              </aes:timeRange>
+              <aes:numChannels>2</aes:numChannels>
+              <aes:stream ID="STREAM_6358aac2-b93a-4991-8cd9-20def50ea9ce" label="stream 0" faceRegionRef="REGION_056554fe-a35b-4e70-b1bb-aacc586123f2">
+                <aes:channelAssignment frontRearPosition="0.0" channelNum="0" leftRightPosition="0.0" />
+              </aes:stream>
+              <aes:stream ID="STREAM_da358578-d9b7-40a7-bb63-66ac04087ce3" label="stream 1" faceRegionRef="REGION_056554fe-a35b-4e70-b1bb-aacc586123f2">
+                <aes:channelAssignment frontRearPosition="0.0" channelNum="1" leftRightPosition="0.0" />
+              </aes:stream>
+            </aes:region>
+          </aes:face>
+          <aes:formatList>
+            <aes:formatRegion ID="FORMAT_REGION_3b5bcc64-730c-42f4-ab19-33dcd7e47fc1" ownerRef="REGION_056554fe-a35b-4e70-b1bb-aacc586123f2" label="format region 1" xsi:type="aes:formatRegionType">
+              <aes:bitDepth>16</aes:bitDepth>
+              <aes:sampleRate>96000.0</aes:sampleRate>
+              <aes:wordSize>2</aes:wordSize>
+              <aes:soundField>STEREO</aes:soundField>
+            </aes:formatRegion>
+          </aes:formatList>
+        </aes:audioObject>
+      </standard>
+    </audio>
+  </metadata>
+  <statistics fitsExecutionTime="12985">
+    <tool toolname="OIS Audio Information" toolversion="0.1" executionTime="2169" />
+    <tool toolname="ADL Tool" toolversion="0.1" status="did not run" />
+    <tool toolname="Jhove" toolversion="1.5" executionTime="2990" />
+    <tool toolname="file utility" toolversion="5.09" executionTime="2906" />
+    <tool toolname="Exiftool" toolversion="9.13" executionTime="2921" />
+    <tool toolname="Droid" toolversion="6.1.3" executionTime="12770" />
+    <tool toolname="NLNZ Metadata Extractor" toolversion="3.4GA" executionTime="2722" />
+    <tool toolname="OIS File Information" toolversion="0.2" executionTime="5296" />
+    <tool toolname="OIS XML Metadata" toolversion="0.2" status="did not run" />
+    <tool toolname="ffident" toolversion="0.2" executionTime="2701" />
+    <tool toolname="Tika" toolversion="1.3" executionTime="2428" />
+  </statistics>
+</fits>
+
